@@ -1,12 +1,12 @@
-#+TITLE: Guilherme G. Schardong
-#+AUTHOR: Guilherme G Schardong
-#+DATE: 2021-03-31
+#+TITLE: Daniel R. Perazzo
+#+AUTHOR: Daniel G Perazzo
+#+DATE: 2023-01-31
 #+startup: hideblocks
 #+options: num:nil toc:nil
 #+html_head: <meta name="referrer" content="origin" />
 #+html_head: <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 #+html_head: <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
-#+html: <div class="hide-small" id="contact"><tt>guilherme[dot]schardong[at]isr[dot]uc[dot]pt</tt></div>
+#+html: <div class="hide-small" id="contact"><tt>daniel[dot]perazzo[at]impa[dot]br</tt></div>
 #+html: <div class="hide-small" id="pgpkey"><a href="res/key.txt"><tt>6EF2 6885 8BD4 F608 58AF 4763 BC05 5498 F7E7 7E74</tt></a></div>
 
 I'm currently a post-doctoral fellow at [[https://www.isr.uc.pt/][Institute of Systems and Robotics, University of Coimbra]], where I work on projects with the [[https://visteam.isr.uc.pt/home][Visual Information Security Team (VISTEAM)]]. Up to January 2022, I was a research fellow at GALGOS/PUC-Rio, with experience on oil&gas industry from projects with PETROBRAS on well-testing and reservoir model inference. I'm also a part-time post-doc at [[https://www.visgraf.impa.br/home/][Visgraf/IMPA]], where I work on computer graphics and machine learning, with emphasis on implicit function reconstruction and rendering.
@@ -21,44 +21,44 @@ My current research interests involve mainly AI for Graphics and Implicit Functi
 #+caption: Gaussian and Mean curvatures of the Stanford Armadillo. We calculated them from a smooth neural network trained on the Armadillo mesh. Afterwards, we used the analytical formulas of the curvatures on the neural network evaluated at the mesh vertices and plotted the results as colors.
 #+attr_html: :width 800px
 [[file:res/i3d.jpeg]]
-*** Authors: Tiago Novello, *Guilherme Schardong*, Luiz Schirmer, Vinicius da Silva, Helio Lopes, Luiz Velho
+*** Authors: Tiago Novello, *Daniel Perazzo*, Luiz Schirmer, Vinicius da Silva, Helio Lopes, Luiz Velho
 *** Venue: Computers and Graphics (SIBGRAPI Special Issue 2022)
 
 ** Multiresolution Neural Networks for Imaging [[[https://visgraf.github.io/mrnet-img/][Project page]]]
 #+caption: Learning progressively more details of the Cameraman Image. On top, the reconstructions of the cameramen at each level of the network. On the bottom, the FFT spectra of the corresponding images.
 #+attr_html: :width 800px
 [[file:res/m-net-3.png]]
-*** Authors: Hallison Paz, Tiago Novello, Vinícius da Silva, Luiz Schirmer, *Guilherme Schardong*, Fabio Chagas, Helio Lopes, Luiz Velho
+*** Authors: Hallison Paz, Tiago Novello, Vinícius da Silva, Luiz Schirmer, *Daniel Perazzo*, Fabio Chagas, Helio Lopes, Luiz Velho
 *** Venue: Main Track of SIBGRAPI 2022
 
 ** Neural Networks for Implicit Representations of 3D Scenes [[http://sibgrapi.sid.inpe.br/rep/8JMKD3MGPEW34M/45DPE5L][[Paper link]]]
 #+caption: A survey on Neural Network methods for implicit representations
 #+attr_html: :width 800px
 [[file:res/nnir3d_sib2021.png]]
-*** Authors: Luiz Schirmer, *Guilherme Schardong*, Vinícius da Silva, Tiago Novello, Daniel Yukimura, Thales Magalhães, Hallison Paz, Hélio Lopes, Luiz Velho
+*** Authors: Luiz Schirmer, *Daniel Perazzo*, Vinícius da Silva, Tiago Novello, Daniel Yukimura, Thales Magalhães, Hallison Paz, Hélio Lopes, Luiz Velho
 *** Venue: Tutorials of SIBGRAPI 2021
 
 ** Incorporating Dynamic Production-Logging Data to the Permeability-Estimation Workflow Using Machine Learning [[[https://onepetro.org/SJ/article-abstract/25/05/2765/454025/Incorporating-Dynamic-Production-Logging-Data-to?redirectedFrom=fulltext][Paper link]]]
 #+caption: Estimating near-well Permeability given production, imaging and, gamma-ray data using neural networks.
 #+attr_html: :width 800px
 [[file:res/fig13.png]]
-*** Authors: Ciro Guimarães, Luiz Schirmer, *Guilherme Schardong*, Abelardo Barreto, Hélio Lopes
+*** Authors: Ciro Guimarães, Luiz Schirmer, *Daniel Perazzo*, Abelardo Barreto, Hélio Lopes
 *** Venue: Society of Petroleum Engineers Journal, issue 25, 2020
 ** Eras: Improving the quality control in the annotation process for Natural Language Processing tasks [[[https://doi.org/10.1016/j.is.2020.101553][Paper link]]] [[[https://github.com/jonatasgrosman/eras][Code repository]]]
 #+caption: Adjudication interface for ERAS, used for consolidating the annotations of multiple users.
 #+attr_html: :width 800px
 [[file:res/eras.png]]
-*** Authors: Jonatas Grosman, Pedro Furtado, Ariane Bueno, *Guilherme Schardong*, Simone Barbosa, Hélio Lopes
+*** Authors: Jonatas Grosman, Pedro Furtado, Ariane Bueno, *Daniel Perazzo*, Simone Barbosa, Hélio Lopes
 *** Venue: Information System, issue 93, 2020
 ** Visual exploration of an ensemble of classifiers [[[https://doi.org/10.1016/j.cag.2019.08.012][Paper link]]]
 #+caption: Exploration of classification results for various algorithms using linked views and dimensionality reduction.
 #+attr_html: :width 800px
 [[file:res/sib2019.png]]
-*** Authors: Paula Ribeiro, *Guilherme Schardong*, Simone Barbosa, Clarisse de Souza, Hélio Lopes
+*** Authors: Paula Ribeiro, *Daniel Perazzo*, Simone Barbosa, Clarisse de Souza, Hélio Lopes
 *** Venue: Computers and Graphics (SIBGRAPI Special Issue 2019)
-** Visual interactive support for selecting scenarios from time-series ensembles [[[https://doi.org/10.1016/j.dss.2018.08.001][Paper link]]] [[[https://github.com/schardong/visual-scenario-reduction][Code repository]]]
+** Visual interactive support for selecting scenarios from time-series ensembles [[[https://doi.org/10.1016/j.dss.2018.08.001][Paper link]]] [[[https://github.com/Perazzo/visual-scenario-reduction][Code repository]]]
 #+caption: Main window of our prototype. Linked views and dimensionality reduction permit the navigation among complex, time-varying data, with the goal of picking the instances closest to an arbitrary goal (P10, P50 or P90 production percentiles in our case).
 #+attr_html: :width 800px
 [[file:res/dss2018.png]]
-*** Authors: *Guilherme Schardong*, Ariane Rodrigues, Simone Barbosa, Hélio Lopes
+*** Authors: *Daniel Perazzo*, Ariane Rodrigues, Simone Barbosa, Hélio Lopes
 *** Venue: Decision Support Systems, issue 113, 2018
